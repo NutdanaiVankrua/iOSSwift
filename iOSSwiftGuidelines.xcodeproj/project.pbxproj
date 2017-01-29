@@ -12,6 +12,10 @@
 		18492B871E3E2503007648B7 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18492B861E3E2503007648B7 /* MainPresenter.swift */; };
 		18492B8B1E3E2546007648B7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18492B8A1E3E2546007648B7 /* MainView.swift */; };
 		18492B901E3E26D6007648B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18492B8F1E3E26D6007648B7 /* Main.storyboard */; };
+		18492B931E3E27E8007648B7 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18492B921E3E27E8007648B7 /* HeaderView.xib */; };
+		18492B951E3E28F3007648B7 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18492B941E3E28F3007648B7 /* HeaderView.swift */; };
+		18492B971E3E2AE6007648B7 /* StatusBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18492B961E3E2AE6007648B7 /* StatusBarView.xib */; };
+		18492B991E3E2B1C007648B7 /* StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18492B981E3E2B1C007648B7 /* StatusBarView.swift */; };
 		18EBD0831E3E18B100899F1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBD0821E3E18B100899F1B /* AppDelegate.swift */; };
 		18EBD08B1E3E18B100899F1B /* iOSSwiftGuidelines.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18EBD0891E3E18B100899F1B /* iOSSwiftGuidelines.xcdatamodeld */; };
 		18EBD08D1E3E18B100899F1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EBD08C1E3E18B100899F1B /* Assets.xcassets */; };
@@ -44,6 +48,10 @@
 		18492B861E3E2503007648B7 /* MainPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainPresenter.swift; path = Presenters/MainPresenter.swift; sourceTree = "<group>"; };
 		18492B8A1E3E2546007648B7 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainView.swift; path = ViewsImp/MainView.swift; sourceTree = "<group>"; };
 		18492B8F1E3E26D6007648B7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
+		18492B921E3E27E8007648B7 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HeaderView.xib; path = Views/HeaderView.xib; sourceTree = "<group>"; };
+		18492B941E3E28F3007648B7 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeaderView.swift; path = Views/HeaderView.swift; sourceTree = "<group>"; };
+		18492B961E3E2AE6007648B7 /* StatusBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StatusBarView.xib; path = Views/StatusBarView.xib; sourceTree = "<group>"; };
+		18492B981E3E2B1C007648B7 /* StatusBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StatusBarView.swift; path = Views/StatusBarView.swift; sourceTree = "<group>"; };
 		18EBD07F1E3E18B100899F1B /* iOSSwiftGuidelines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSSwiftGuidelines.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EBD0821E3E18B100899F1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18EBD08A1E3E18B100899F1B /* iOSSwiftGuidelines.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSSwiftGuidelines.xcdatamodel; sourceTree = "<group>"; };
@@ -127,6 +135,17 @@
 			name = Storyboards;
 			sourceTree = "<group>";
 		};
+		18492B911E3E27C2007648B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18492B921E3E27E8007648B7 /* HeaderView.xib */,
+				18492B941E3E28F3007648B7 /* HeaderView.swift */,
+				18492B961E3E2AE6007648B7 /* StatusBarView.xib */,
+				18492B981E3E2B1C007648B7 /* StatusBarView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		18EBD0761E3E18B100899F1B = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +171,7 @@
 		18EBD0811E3E18B100899F1B /* iOSSwiftGuidelines */ = {
 			isa = PBXGroup;
 			children = (
+				18492B911E3E27C2007648B7 /* Views */,
 				18492B8E1E3E269F007648B7 /* Storyboards */,
 				18492B891E3E2530007648B7 /* ViewsImp */,
 				18492B831E3E24B8007648B7 /* Presenters */,
@@ -324,6 +344,8 @@
 				18492B901E3E26D6007648B7 /* Main.storyboard in Resources */,
 				18EBD0901E3E18B100899F1B /* LaunchScreen.storyboard in Resources */,
 				18EBD08D1E3E18B100899F1B /* Assets.xcassets in Resources */,
+				18492B971E3E2AE6007648B7 /* StatusBarView.xib in Resources */,
+				18492B931E3E27E8007648B7 /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,7 +494,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				18492B871E3E2503007648B7 /* MainPresenter.swift in Sources */,
+				18492B951E3E28F3007648B7 /* HeaderView.swift in Sources */,
 				18492B8B1E3E2546007648B7 /* MainView.swift in Sources */,
+				18492B991E3E2B1C007648B7 /* StatusBarView.swift in Sources */,
 				18EBD08B1E3E18B100899F1B /* iOSSwiftGuidelines.xcdatamodeld in Sources */,
 				18EBD0831E3E18B100899F1B /* AppDelegate.swift in Sources */,
 				18492B851E3E24D5007648B7 /* MainViewController.swift in Sources */,

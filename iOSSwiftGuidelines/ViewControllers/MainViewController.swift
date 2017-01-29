@@ -18,6 +18,10 @@ class MainViewController: UIViewController {
         presenter = MainPresenter.init(view: self)
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
 }
 
 // MARK: - Views
