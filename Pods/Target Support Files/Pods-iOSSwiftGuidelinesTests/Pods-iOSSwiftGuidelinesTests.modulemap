@@ -1,0 +1,6 @@
+framework module Pods_iOSSwiftGuidelinesTests {
+  umbrella header "Pods-iOSSwiftGuidelinesTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
